@@ -1,3 +1,14 @@
-function myclick(a){
-    myform.display.value +=a;
+function getHistory(){
+    return document.getElementById("history-value").innerText;
 }
+
+ function printHistory(num){
+    document.getElementById("history-value").innerText=num;
+ }
+  function printOutput(num){
+     document.getElementById("output-value").innerText=num;
+ }
+ printOutput("56");
+// function getOutput(){
+//     document.getElementById
+// }

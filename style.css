@@ -1,7 +1,7 @@
 body{
   font-family: sans-serif;
    background-color:black;
-   color: white;
+   color:black;
 }
 #container{
             width: 1000px;
@@ -27,17 +27,23 @@ body{
 }
 #history{
   text-align:right;
-  height: 20px;
-  margin:0 20px;
+  height: 30px;
+  margin:5px;
   padding-top:20px;
   font-size:15px;
-  color:#f5f6fa;
+  color:white;
+  font: size 15;px;
+  font:bold;
+  border-radius:5px;
 }
 #output{
-  text-align: right;
-  height:60px;
-  margin:10px 20px;
-  font-size:30px; 
+  text-align:right;
+  height:40px;
+  margin:20px 20px 20px;
+  font-size:30px;
+  background-color: beige;
+  bor 
+
 }
 .operator,.number, .empty{
             width:50px;
@@ -72,7 +78,11 @@ button:nth-child(12){
   background-color: darkgoldenrod;
 
 }
-buttong:nth-child(16){
+button:nth-child(16){
   font-size:20px;
   background-color: brown;
+}
+button:nth-child(20){
+  font-size:20px;
+  background-color: darkgreen;
 }
